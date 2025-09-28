@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib as plt
+import matplotlib.pyplot as plt
 import io
 
 st.set_page_config(page_title="SchoolValuation Pro+ - Valuation Completo", layout="wide")
@@ -193,3 +193,4 @@ if st.button("Gerar Relatório em Excel"):
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
 
     )
+
